@@ -1,0 +1,109 @@
+body{
+  background-color: rgb(237, 247, 232);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+h1, h2 {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+
+body,h1,h2,ul,a {
+  color: rgb(15, 0, 51)
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+ul {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(242, 237, 222);
+}
+
+
+#intro {
+ text-align: justify;
+}
+
+#intro-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  padding: 40px 0px;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.card-white {
+    background-color: rgb(253, 255, 249);
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+#card-small {
+  padding-top: 15px;
+}
+
+.special-padding {
+  padding-top: 20px;
+}
+
+.special-list {
+  padding-top: 25px;
+}
+
+.btn-blue {
+  background-color:rgb(253, 255, 249);
+  color: rgb(15, 0, 51);
+  padding: 15px 15px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(15, 0, 51);
+  color: rgb(253, 255, 249);
+}
+
+#list-down {
+  padding-bottom: 25px;
+}
+
+i {
+  font-size: 70px;
+}
+
+.last-card {
+  text-align: center;
+}
